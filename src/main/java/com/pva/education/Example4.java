@@ -15,15 +15,18 @@ public class Example4 {
 
         System.out.print("Input number 1: ");
         int numberOne = Integer.parseInt(sc.nextLine());
-        System.out.print("Input number 1: ");
+        System.out.print("Input number 2: ");
         int numberTwo = Integer.parseInt(sc.nextLine());
 
         while(numberOne!=numberTwo){
+            System.out.print("Number One: " + numberOne + " | Number Two: " + numberTwo);
             if(numberOne>numberTwo){
                 numberOne = numberOne-numberTwo;
+                System.out.println("Number One Result: " + numberOne);
             }
             else{
                 numberTwo = numberTwo - numberOne;
+                System.out.println("Number Two Result: " + numberTwo);
             }
         }
 
