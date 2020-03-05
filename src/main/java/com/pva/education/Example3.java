@@ -1,11 +1,12 @@
-package AufgabenZettel;
+package com.pva.education;
+
 
 import java.util.Scanner;
 
-public class Aufgabe3 {
+public class Example3 {
 
     public static void main(String[] args) {
-        Aufgabe3 a3 = new Aufgabe3();
+        Example3 a3 = new Example3();
         a3.calc();
     }
 

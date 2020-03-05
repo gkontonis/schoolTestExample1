@@ -1,11 +1,12 @@
-package AufgabenZettel;
+package com.pva.education;
+
 
 import java.util.Scanner;
 
-public class Aufgabe2 {
+public class Example2 {
 
     public static void main (String [] args){
-        Aufgabe2 a2 = new Aufgabe2();
+        Example2 a2 = new Example2();
 
         System.out.println(a2.calcHypo());
     }

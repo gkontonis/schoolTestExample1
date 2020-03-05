@@ -1,13 +1,13 @@
-package AufgabenZettel;
+package com.pva.education;
 
 import java.util.Scanner;
 
-public class Aufgabe1 {
+public class Example1 {
     static Scanner sc;
     private double output;
 
     public static void main (String[] args){
-        Aufgabe1 a1 = new Aufgabe1();
+        Example1 a1 = new Example1();
         double input;
         sc = new Scanner(System.in);
 
